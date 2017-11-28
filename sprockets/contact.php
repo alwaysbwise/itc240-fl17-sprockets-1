@@ -1,5 +1,5 @@
 <?php include 'includes/config.php'?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 <h3>Contact Form</h3>
 <?php include 'includes/simple-2.php'?>
-<?php include 'includes/footer.php'?>
+<?php get_footer()?>

@@ -1,5 +1,5 @@
 <?php include 'includes/config.php'?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 <hr class="divider">
 <h2 class="text-center text-lg text-uppercase my-0">Appointment
   <strong>Form</strong>
@@ -116,9 +116,10 @@ if(isset($_POST["FirstName"]))
 
 
 ?>
+<?php get_footer()?>
 <?php 
 
-include 'includes/footer.php';
+
 
 function clean_post($key){
     

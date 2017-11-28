@@ -58,7 +58,7 @@ img/<?=$pic?>
 */
 ?>
 
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 
 
 
@@ -76,4 +76,4 @@ img/<?=$pic?>
 <p><a href="?day=Sunday">Sunday</a></p>
 
 
-<?php include 'includes/footer.php'?>
+<?php get_footer()?>

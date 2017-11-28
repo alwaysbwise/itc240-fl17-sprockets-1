@@ -1,5 +1,5 @@
 <?php include 'includes/config.php'?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 
 
         <hr class="divider">
@@ -58,4 +58,4 @@
         </div>
 <?php 
 
-include 'includes/footer.php';
+get_footer()
