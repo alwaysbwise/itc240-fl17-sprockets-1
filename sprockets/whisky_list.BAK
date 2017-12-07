@@ -40,9 +40,8 @@ if(mysqli_num_rows($result) > 0)
     while($row = mysqli_fetch_assoc($result))
     {# process each row
          echo '<p align="center">
-            <a href="' . $config->virtual_path . '/whisky_view.php?id=' . (int)$row['ScottishWhiskyID'] . '">' . dbOut($row['Name']) . '</a>'
-            
-            . '<img src="' . $config->virtual_path . '/uploads/whisky' . dbOut($row['ScottishWhiskyID']) . '_thumb.jpg" />'. '</p>'; 
+            <a href="' . $config->virtual_path . '/whisky_view.php?id=' . (int)$row['ScottishWhiskyID'] . '">' . dbOut($row['Name']) . '</a>
+            </p>'; 
     }    
 	//the showNAV() method defaults to a div, which blows up in our design
     echo $myPager->showNAV();//show pager if enough records 
