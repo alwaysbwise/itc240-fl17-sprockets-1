@@ -1,6 +1,6 @@
 <?php include 'includes/config.php'?>
 <?php include 'includes/planets.php'?>
-<?php $config->hero .= rotate($planets);?>
+<?php $config->planet .= rotate($planets);?>
 <?php get_header()?>
 
 
