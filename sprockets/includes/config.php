@@ -54,6 +54,7 @@ $config->subbanner = '1701 Broadway | Seattle, WA 98122 | 206.999.0000';
 $config->loadhead = '';//place items in <head> element
 $config->loadfoot = '';//place to store items just before body tag
 $config->hero = '';//will store random hero icon
+$config->planet = '';//will store rotating planet 
 
 switch(THIS_PAGE){
       

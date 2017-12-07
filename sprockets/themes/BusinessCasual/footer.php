@@ -5,8 +5,9 @@
 
     <footer class="bg-faded text-center py-5">
       <div class="container">
-        <p class="m-0">Copyright &copy; ITC 240 Fall 2017 <?=$config->adminWidget;?></p>
           <p class ="m-0"><?=$config->hero?></p>
+        <p class="m-0">Copyright &copy; ITC 240 Fall 2017 <?=$config->adminWidget;?></p>
+          
       </div>
     </footer>
 

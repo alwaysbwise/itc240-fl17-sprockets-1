@@ -59,6 +59,9 @@
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
             </li>
+            <li class="nav-item px-lg-4">
+              <p><?=$config->planet?></p>
+            </li>
           </ul>
         </div>
       </div>
