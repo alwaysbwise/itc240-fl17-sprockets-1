@@ -1,4 +1,19 @@
 <?php include 'includes/config.php'?>
+<?php
+$heros[] = '<img src="images/coulson.png" />';
+$heros[] = '<img src="images/fury.png" />';
+$heros[] = '<img src="images/hulk.png" />';
+$heros[] = '<img src="images/thor.png" />';
+$heros[] = '<img src="images/black-widow.png" />';
+$heros[] = '<img src="images/captain-america.png" />';
+$heros[] = '<img src="images/machine.png" />';
+$heros[] = '<img src="images/iron-man.png" />';
+$heros[] = '<img src="images/loki.png" />';
+$heros[] = '<img src="images/giant.png" />';
+$heros[] = '<img src="images/hawkeye.png" />';
+$config->hero .= randomize($heros);
+?>
+
 <?php get_header()?>
 <hr class="divider">
 <h2 class="text-center text-lg text-uppercase my-0">Appointment

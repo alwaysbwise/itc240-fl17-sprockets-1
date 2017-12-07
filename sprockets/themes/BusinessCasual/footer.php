@@ -6,9 +6,11 @@
     <footer class="bg-faded text-center py-5">
       <div class="container">
         <p class="m-0">Copyright &copy; ITC 240 Fall 2017 <?=$config->adminWidget;?></p>
+          <p class ="m-0"><?=$config->hero?></p>
       </div>
     </footer>
 
+    <?=$config->loadfoot?>
     <!-- Bootstrap core JavaScript -->
     <script src="<?=$config->theme_virtual?>vendor/jquery/jquery.min.js"></script>
     <script src="<?=$config->theme_virtual?>vendor/popper/popper.min.js"></script>
